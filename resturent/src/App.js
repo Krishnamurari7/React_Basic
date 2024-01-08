@@ -1,11 +1,16 @@
-import React from "react";
+// import React from "react";
 
-function App() {
+const App = () => {
   return (
     <>
-      <h1>Hello Jii</h1>
+      <myName />
+      <h1 className="hello">Hello Jii </h1>
     </>
   );
-}
+};
+
+const myName = () => {
+  return <h1>Hello Krishna</h1>
+};
 
 export default App;

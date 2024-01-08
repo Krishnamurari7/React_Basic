@@ -1,16 +1,11 @@
-// import React from "react";
+import React from "react";
+import Resturant from "./component/Basics/Resturent";
+// import UseState from "./component/Hooks/useState";
+// import UseEffect from "./component/Hooks/useEffect";
+// import UseReducer from "./component/Hooks/useReducer";
 
 const App = () => {
-  return (
-    <>
-      <myName />
-      <h1 className="hello">Hello Jii </h1>
-    </>
-  );
-};
-
-const myName = () => {
-  return <h1>Hello Krishna</h1>
+  return <Resturant />;
 };
 
 export default App;

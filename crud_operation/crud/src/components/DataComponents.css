@@ -1,0 +1,22 @@
+.home {
+    margin: 150px;
+    padding: 29px;
+}
+.home{
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    background-color: crimson;
+    
+}
+.home ul{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    list-style-type: none;
+    background-color: aquamarine;
+}
+button{
+    background-color: black;
+    color: white;
+}

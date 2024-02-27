@@ -1,17 +1,31 @@
 
+import { useState } from 'react';
 import './App.css';
 
 function App() {
+  const[count, setcount] = useState(0);
+
+  function decrehandler() {
+    setcount(count-1)
+  }
+  function increhandler() {
+    setcount(count+1)
+  }
+  function resetHandler() {
+    setcount(0)
+  }
   return (
-   <div className='justify-center align-content-center p-60'>
-   <div className="flex flex-col bg-slate-800 align-content-center  text-white w-[40vw] h-[40vh] border-rose-400 rounded-lg">
-   <h1>Increament AND Decrement</h1>
-   <div className="flex gap-5">
-    <div className="dec">-</div>
-    <div className="val">Value</div>
-    <div className="inc">+</div>
+   <div className='h-[100vh] w-[100vw] flex justify-center items-center flex-col gap-10 bg-blue-300'>
+   <div className=" text-white font-medium text-2xl  ">
+   Increament AND Decrement
    </div>
-   </div>
+   <div className="bg-white flex justify-center gap-12 py-3 rounded-lg text-[25px]">
+    <button className="border-r-2 text-center w-20  border-[#bfbfbf] text-5xl" onClick={decrehandler}>-</button>
+    <div className='text-5xl'>{count}</div>
+    <button className="border-l-2 text-center w-20 border-[#bfbfbf] text-5xl" onClick={increhandler}>+</button>
+    </div>
+    <button onClick={resetHandler} className='bg-black text-white text-xl rounded-lg '>Reset</button>
+
    </div>
   );
 }

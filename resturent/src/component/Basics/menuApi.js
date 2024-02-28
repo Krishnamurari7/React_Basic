@@ -81,6 +81,96 @@ const Menu = [
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
     },
+    {
+      id: 10,
+      image: "../images/pasta.jpg",
+      name: "Pasta",
+      category: "lunch",
+      price: "20₹",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
+    },
+    {
+      id: 11,
+      image: "../images/hamburger.jpg",
+      name: "Burger",
+      category: "evening",
+      price: "15₹",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
+    },
+    {
+      id: 12,
+      image: "../images/samosa.jpg",
+      name: "samaso",
+      category: "evening",
+      price: "10₹",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
+    },
+    {
+      id: 13,
+      image: "../images/samosa.jpg",
+      name: "samaso",
+      category: "evening",
+      price: "10₹",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
+    },
+    {
+      id: 14,
+      image: "../images/samosa.jpg",
+      name: "samaso",
+      category: "evening",
+      price: "10₹",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
+    },
+    {
+      id: 15,
+      image: "../images/samosa.jpg",
+      name: "samaso",
+      category: "evening",
+      price: "10₹",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
+    },
+    {
+      id: 16,
+      image: "../images/samosa.jpg",
+      name: "samaso",
+      category: "evening",
+      price: "10₹",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
+    },
+    {
+      id: 17,
+      image: "../images/samosa.jpg",
+      name: "samaso",
+      category: "evening",
+      price: "10₹",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
+    },
+    {
+      id: 18,
+      image: "../images/samosa.jpg",
+      name: "samaso",
+      category: "evening",
+      price: "10₹",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
+    },
+    {
+      id: 19,
+      image: "../images/samosa.jpg",
+      name: "samaso",
+      category: "evening",
+      price: "10₹",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
+    },
   ];
   
   export default Menu;

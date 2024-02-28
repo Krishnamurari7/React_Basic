@@ -24,7 +24,7 @@ function App() {
     <div className='text-5xl'>{count}</div>
     <button className="border-l-2 text-center w-20 border-[#bfbfbf] text-5xl" onClick={increhandler}>+</button>
     </div>
-    <button onClick={resetHandler} className='bg-black text-white text-xl rounded-lg '>Reset</button>
+    <button onClick={resetHandler} className='bg-black text-white text-xl rounded-lg p-3'>Reset</button>
 
    </div>
   );

@@ -1,10 +1,10 @@
 import React from 'react'
 import './Item.css'
 
-const Item = () => {
+const Item = (props) => {
   return (
     <div>
-      <div className='item'>Nirma</div>
+      <div className='item'>{props.name}</div>
     </div>
   )
 }

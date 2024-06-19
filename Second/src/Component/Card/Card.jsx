@@ -4,7 +4,7 @@ import './Card.css'
 const Card = (props) => {
   return (
     <div>
-      {props.Children}
+      {props.children}
     </div>
   )
 }

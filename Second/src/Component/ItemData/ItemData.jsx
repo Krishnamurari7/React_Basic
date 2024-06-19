@@ -1,12 +1,12 @@
 import React from 'react'
 import './ItemData.css'
 
-const ItemData = () => {
+const ItemData = (props) => {
   return (
     <div className='itemdata'>
-        <div>20</div>
-        <div>january</div>
-        <div>1998</div>
+        <div>{props.date}</div>
+        <div>{props.month} </div>
+        <div>{year}</div>
       
     </div>
   )

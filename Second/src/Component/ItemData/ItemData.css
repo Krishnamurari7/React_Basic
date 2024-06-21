@@ -1,4 +1,6 @@
 .itemdata{
+    margin: 10px;
     text-align: center;
     background-color: aqua;
+    width: 100vw;
 }

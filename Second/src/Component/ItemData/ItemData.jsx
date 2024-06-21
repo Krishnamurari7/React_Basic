@@ -6,7 +6,7 @@ const ItemData = (props) => {
     <div className='itemdata'>
         <div>{props.date}</div>
         <div>{props.month} </div>
-        <div>{year}</div>
+        <div>{props.year}</div>
       
     </div>
   )
